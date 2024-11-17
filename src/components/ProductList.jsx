@@ -17,7 +17,6 @@ function ProductList(){
                 ))}
 
             </div>
-
         </div>
     )
 }

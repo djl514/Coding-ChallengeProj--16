@@ -1,12 +1,14 @@
-import products from "./Array";
+
 
 function ProductItem({ name, price, description }){
     return (
-        <ul>
-            <h3>Product: {name}</h3>
+        <div>
+            <li>
+                <b>{name}</b>
+                </li>
             <p>Price: ${price}</p>
-            <p>Description: {description}</p>
-        </ul>
+            <p>{description}</p>
+        </div>
     )
 }
 
