@@ -33,12 +33,18 @@ function AddProductForm(){
                 </li>
                 <li>
             <label>Price :
-                <input type="text" value={price} onChange={(event) => setPrice(event.target.value)}/>
+                <input type="text" 
+                value={price} 
+                placeholder="price"
+                onChange={(event) => setPrice(event.target.value)}/>
             </label>
             </li>
             <li>
             <label>Description :
-                <input type="text" value={description} onChange={(event) => setDescription(event.target.value)}/>
+                <input type="text" 
+                value={description} 
+                placeholder="description"
+                onChange={(event) => setDescription(event.target.value)}/>
             </label>
             </li>
             </ul>
