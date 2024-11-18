@@ -1,8 +1,3 @@
-# React + Vite
+In this challenge, you will create a Product Dashboard for a business using React and Vite. This dashboard will allow users to view a list of products, add new ones, and display product details. You will set up the environment with Vite, create components to organize the UI, and use JSX, keys, and props to pass data between components.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Scenario: A small e-commerce business wants to build a simple Product Dashboard to manage its product listings. The dashboard should display a list of products, each with a name, price, and description. The business also wants a way to add new products. By organizing the interface into React components, the business can maintain and update the dashboard as the product line grows.
